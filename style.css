@@ -382,3 +382,392 @@ nav img {
    filter: blur(120px);
    border-radius: 100%;
 }
+
+.capital-withdrawal {
+   padding: 2rem 15%;
+   height: 100vh;
+   position: relative;
+   overflow: hidden;
+}
+
+.capital-withdrawal h2 {
+   font-size: 4rem;
+   margin-bottom: 1rem;
+   font-family: 'FreeSans Regular', sans-serif;
+   font-weight: 400;
+   color: #deff29;
+}
+
+.glow-2 {
+   background-color: #dfff2979;
+   width: 100vw;
+   height: 20rem;
+   margin: auto;
+   border-radius: 100%;
+   position: absolute;
+   transform: translate(0%, 50%);
+   filter: blur(80px);
+   bottom: 0;
+   left: 0;
+}
+
+.overlay5 {
+   width: 5rem;
+   height: 100vh;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transform: translate(0, 20%);
+}
+
+.overlay5 img {
+   width: 100vw;
+   height: 100%;
+   object-fit: contain;
+}
+
+.cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+.wrapper {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 70%;
+   transform: translate(20%, -70%);
+}
+
+.card1 {
+   flex: 1;
+   height: 20rem;
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   border-radius: 1rem;
+   overflow: hidden;
+   position: relative;
+}
+
+.card1 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.dots-m {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+   position: absolute;
+   bottom: 20%;
+   left: 50%;
+   transform: translate(-50%, -70%);
+}
+
+.investment-process {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+.card2 {
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-direction: column;
+   font-family: 'FreeSans Regular', sans-serif;
+   font-weight: 400;
+   background-color: white;
+   color: black;
+   width: 100%;
+   position: relative;
+   height: 90vh;
+   border-radius: 7rem 0 7rem 0;
+   overflow: hidden;
+   margin-bottom: 20rem;
+}
+
+.glow-4 {
+   background-color: #dfff2985;
+   width: 20rem;
+   height: 20rem;
+   margin: auto;
+   filter: blur(120px);
+   border-radius: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: translate(-50%, -50%);
+}
+
+.card2 h2 {
+   margin-bottom: 1rem;
+   font-size: 4rem;
+   font-weight: 400;
+   padding: 3rem 0;
+}
+
+.bullets {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 2rem;
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   z-index: 10;
+}
+
+.bullet {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.bullet-img {
+   width: 3rem;
+   height: 3rem;
+}
+
+.bullet-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.bullet-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: left;
+   gap: 0rem;
+}
+
+.bullet-content h3,
+.bullet-content p {
+   width: fit-content;
+}
+
+.bullet-content h3 {
+   font-size: 1.4rem;
+   font-weight: bold;
+}
+
+.bullet-content p,
+.bullet-content li {
+   font-family: 'Fira Code Regular', sans-serif;
+}
+
+.bullet-content ul {
+   padding-left: 3rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 0.2rem;
+}
+
+.line1 {
+   position: absolute;
+   width: 0.2rem;
+   height: 50%;
+   background-color: #dadada;
+   left: 31.3%;
+   transform: translate(100%, 0);
+   top: 30%;
+}
+
+.line2,
+.line3 {
+   width: 0.2rem;
+   height: 100%;
+   background-color: #dadada;
+   position: absolute;
+}
+
+.line2 {
+   top: 0;
+   left: 10%;
+}
+
+.line3 {
+   top: 0;
+   right: 5%;
+}
+
+.cube-1,
+.cube-2 {
+   width: 10rem;
+   height: 10rem;
+   position: absolute;
+}
+
+.cube-1 img,
+.cube-2 img,
+.icon-overlay img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.icon-overlay {
+   width: 30rem;
+   height: 30rem;
+   position: absolute;
+   top: 37%;
+   left: 50%;
+   z-index: 10;
+   transform: translate(-50%, -50%);
+}
+
+.cube-1 {
+   top: 25%;
+   right: 0;
+   transform: translate(50%, -50%);
+}
+
+.cube-2 {
+   top: 47%;
+   left: 0;
+   transform: translate(-50%, -50%);
+}
+
+.table {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+.left,
+.right {
+   width: 40%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.left img,
+.right img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.left-content,
+.right-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 1rem;
+   text-align: left;
+   width: 80%;
+   height: 100%;
+   position: absolute;
+   font-family: 'FreeSans Regular', sans-serif;
+   font-weight: 400;
+   font-size: 1.2rem;
+   padding-left: 2rem;
+}
+
+.left-content h2,
+.right-content h2 {
+   font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+   color: #deff29;
+}
+
+.right-content h2 {
+   color: #1a1a1a;
+}
+
+.left-content li,
+.right-content p {
+   font-family: 'Fira Code Regular', sans-serif;
+   font-size: 1.2rem;
+   font-weight: 400;
+   margin-left: 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.right-content p {
+   padding: 0;
+   margin: 0;
+}
+
+.right-content {
+   color: #1a1a1a;
+   width: 80%;
+   padding: 0rem;
+}
+
+.modal {
+   padding: 10rem 0rem;
+}
+
+.modal h2 {
+   font-size: 3rem;
+   margin-bottom: 1rem;
+   font-family: 'FreeSans Regular', sans-serif;
+   font-weight: 400;
+   color: white;
+   text-align: center;
+}
+
+.modal-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   font-family: 'Fira Code Regular', sans-serif;
+   font-size: 1.2rem;
+   font-weight: 400;
+   margin-top: 1rem;
+   background-color: #1f1f1d;
+   padding: 5rem 2rem;
+   border-radius: 1rem;
+   position: relative;
+   overflow: hidden;
+}
+
+.modal-content ol {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 0.2rem;
+}
+
+.overlay-10,
+.overlay-11 {
+   width: 30%;
+   height: 6rem;
+   background-color: #deff29;
+   filter: blur(60px);
+   position: absolute;
+}
+
+.overlay-11 {
+   bottom: 0;
+   right: 0;
+   transform: translate(0%, 50%);
+}
+
+.overlay-10 {
+   top: 0;
+   left: 0;
+   transform: translate(-0%, -50%);
+}
