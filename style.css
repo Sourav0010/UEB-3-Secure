@@ -1119,3 +1119,173 @@ nav img {
       padding: 0;
    }
 }
+
+@media only screen and (max-width: 480px) {
+   .main-content h1 {
+      font-size: 1.5rem;
+   }
+
+   .main-icons img {
+      width: 30px;
+      height: 30px;
+   }
+
+   .main-text {
+      width: 80%;
+   }
+
+   .overview-content {
+      padding: 1rem;
+   }
+
+   .overview-content h2 {
+      font-size: 1.5rem;
+   }
+
+   .overview-content p {
+      font-size: 0.6rem;
+   }
+
+   .small-dot {
+      width: 0.2rem;
+      height: 0.2rem;
+   }
+
+   .overlay1 {
+      width: 3rem;
+      height: 3rem;
+   }
+   .overlay2 {
+      width: 50%;
+      height: 1rem;
+   }
+
+   .overlay3 {
+      width: 1rem;
+      height: 30%;
+   }
+
+   .problem-content,
+   .solution-content {
+      padding: 0;
+   }
+
+   .problem-solution {
+      align-items: flex-start;
+   }
+
+   .pad {
+      padding: 0.1rem;
+   }
+
+   .line {
+      width: 90%;
+      height: 0.2rem;
+   }
+
+   .carousel {
+      gap: 1rem;
+      width: 90%;
+      transform: translate(6%, -7%);
+      flex-wrap: wrap;
+      flex-direction: column;
+   }
+
+   .card {
+      flex: initial;
+      height: auto;
+   }
+   .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+   }
+
+   .card-content {
+      padding: 1rem;
+   }
+   .card-content h3 {
+      font-size: 0.8rem;
+   }
+
+   .card-content p {
+      font-size: 0.6rem;
+   }
+   .card-number-bg {
+      padding: 0.7rem 0rem;
+   }
+
+   .card-number {
+      padding: 0.7rem 0rem;
+   }
+   .card-number p {
+      font-size: 0.8rem;
+   }
+
+   .cube-1 {
+      width: 4rem;
+      top: 38%;
+      right: 2%;
+      transform: translate(0, 0);
+   }
+   .cube-2 {
+      width: 5rem;
+      top: 56%;
+      left: 2%;
+      transform: translate(0, 0);
+   }
+
+   .icon-overlay {
+      width: 52%;
+      top: 31%;
+   }
+   .overlay-10 {
+      width: 20%;
+      height: 3rem;
+   }
+   .overlay-11 {
+      width: 20%;
+      height: 3rem;
+   }
+   .overlay-11 {
+      bottom: 0;
+      right: 0;
+      transform: translate(0%, 50%);
+   }
+   .overlay-10 {
+      top: 0;
+      left: 0;
+      transform: translate(-0%, -50%);
+   }
+   .overlay-22 {
+      width: 100vw;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: translate(0%, 10%);
+   }
+}
+
+@media only screen and (max-width: 390px) {
+   .wrapper {
+      width: 90%;
+      transform: translate(5%, -10%);
+   }
+
+   .capital-withdrawal {
+      height: 85vh;
+   }
+
+   .card1 {
+      flex: initial;
+      width: calc(50% - 1rem);
+      height: auto;
+   }
+
+   .dots-m {
+      left: 50%;
+      bottom: 5%;
+      transform: translate(0%, 0%);
+   }
+}
